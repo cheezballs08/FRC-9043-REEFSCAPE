@@ -1,0 +1,70 @@
+{
+  "version": "2025.0",
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 8.15,
+        "y": 6.18
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 8.844816676282528,
+        "y": 6.170001129318074
+      },
+      "isLocked": false,
+      "linkedName": null
+    },
+    {
+      "anchor": {
+        "x": 3.12,
+        "y": 4.960999999999999
+      },
+      "prevControl": {
+        "x": 4.095,
+        "y": 6.16025
+      },
+      "nextControl": {
+        "x": 2.8589074944958806,
+        "y": 4.639856218229932
+      },
+      "isLocked": false,
+      "linkedName": null
+    },
+    {
+      "anchor": {
+        "x": 2.7951021887261773,
+        "y": 4.015585258723374
+      },
+      "prevControl": {
+        "x": 2.8178339749121215,
+        "y": 4.284079980676532
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": null
+    }
+  ],
+  "rotationTargets": [],
+  "constraintZones": [],
+  "pointTowardsZones": [],
+  "eventMarkers": [],
+  "globalConstraints": {
+    "maxVelocity": 3.0,
+    "maxAcceleration": 3.0,
+    "maxAngularVelocity": 540.0,
+    "maxAngularAcceleration": 720.0,
+    "nominalVoltage": 12.0,
+    "unlimited": false
+  },
+  "goalEndState": {
+    "velocity": 0,
+    "rotation": 0.0
+  },
+  "reversed": false,
+  "folder": "Start To Dropoff",
+  "idealStartingState": {
+    "velocity": 0,
+    "rotation": 180.0
+  },
+  "useDefaultConstraints": true
+}

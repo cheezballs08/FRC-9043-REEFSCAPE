@@ -1,0 +1,174 @@
+{
+  "version": "2025.0",
+  "command": {
+    "type": "sequential",
+    "data": {
+      "commands": [
+        {
+          "type": "path",
+          "data": {
+            "pathName": "mid-1"
+          }
+        },
+        {
+          "type": "sequential",
+          "data": {
+            "commands": [
+              {
+                "type": "named",
+                "data": {
+                  "name": "FixOdometry"
+                }
+              },
+              {
+                "type": "named",
+                "data": {
+                  "name": "ChaseBestApriltagCoralLeft"
+                }
+              },
+              {
+                "type": "named",
+                "data": {
+                  "name": "L4Position"
+                }
+              },
+              {
+                "type": "named",
+                "data": {
+                  "name": "RestPosition"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "RightFeederPose"
+          }
+        },
+        {
+          "type": "sequential",
+          "data": {
+            "commands": [
+              {
+                "type": "named",
+                "data": {
+                  "name": "FeedPosition"
+                }
+              },
+              {
+                "type": "named",
+                "data": {
+                  "name": "RestPosition"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "CoralDrop1Pose"
+          }
+        },
+        {
+          "type": "sequential",
+          "data": {
+            "commands": [
+              {
+                "type": "named",
+                "data": {
+                  "name": "FixOdometry"
+                }
+              },
+              {
+                "type": "named",
+                "data": {
+                  "name": "ChaseBestApriltagCoralLeft"
+                }
+              },
+              {
+                "type": "named",
+                "data": {
+                  "name": "L4Position"
+                }
+              },
+              {
+                "type": "named",
+                "data": {
+                  "name": "RestPosition"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "RightFeederPose"
+          }
+        },
+        {
+          "type": "sequential",
+          "data": {
+            "commands": [
+              {
+                "type": "named",
+                "data": {
+                  "name": "FeedPosition"
+                }
+              },
+              {
+                "type": "named",
+                "data": {
+                  "name": "RestPosition"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "CoralDrop3Pose"
+          }
+        },
+        {
+          "type": "sequential",
+          "data": {
+            "commands": [
+              {
+                "type": "named",
+                "data": {
+                  "name": "FixOdometry"
+                }
+              },
+              {
+                "type": "named",
+                "data": {
+                  "name": "ChaseBestApriltagCoralRight"
+                }
+              },
+              {
+                "type": "named",
+                "data": {
+                  "name": "L4Position"
+                }
+              },
+              {
+                "type": "named",
+                "data": {
+                  "name": "RestPosition"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "resetOdom": true,
+  "folder": null,
+  "choreoAuto": false
+}
